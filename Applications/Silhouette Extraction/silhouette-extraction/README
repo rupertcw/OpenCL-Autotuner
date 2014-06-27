@@ -1,0 +1,11 @@
+Notes about code and license:
+* There is a lot of unused code/variables/abandoned tests etc. in the code.
+This goes for the files Silhouette_Extraction.{h,cpp} and silhouette_extraction.cl.
+
+* OpenCL headers is needed to compile, as well as oclUtils.cpp and oclUtils.h from NVIDIA
+OpenCL SDK. These are not included in this package, as we haven't looked into the license.
+To use this software, you should therefore get these files yourself. The license in
+COPYING.LESSER explains the license for the files provided here, and only these files. 
+All the source files we provide contains a license-note in the top of the file.
+
+* Inspect the Makefile if you have problems to compile, and change it as needed.
